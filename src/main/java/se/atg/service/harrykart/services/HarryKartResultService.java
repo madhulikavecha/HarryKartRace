@@ -76,10 +76,6 @@ public class HarryKartResultService {
         //removing participants whose base speed is less than "ZERO".
         raceRankingList.removeIf(rank ->rank.getRaceTime()>=Double.MAX_VALUE );
 
-        raceRankingList.stream().forEach( rank -> {
-            System.out.println(rank.getRaceTime());
-        });
-
         //  Rank each participant by time. Equal times have the same rank.
         for (int rank = 0; rank < raceRankingList.size(); rank++) {
             if (rank > 0) {

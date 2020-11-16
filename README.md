@@ -92,14 +92,16 @@ The application we provide has a rest endpoint accepting XML and returning JSON 
 
 When you are done zip the project (without the target folder) and send it back to us. You can leave the .git folder if you want.
 
-Considerations around project :
+##Considerations around project :
+
 1.If the race time of two or more participants are same then same position rank will be given
-2.Top 3 positions will be displayed in output.
-3.If participant speed is less 0- race didnt start : That participant is  out of race.
+2.Top 3 positions of participants will be displayed in output.
+3.If participant speed is less 0 - race didnt start : That participant is  out of race.
 4.Minimum participants of race is 3.
 
-Run :
+##Run :
 
-This project contains only 1 post method. Hence cannot be tested via browser.It can be tested via CURL or POSTMAN.
+This project contains only 1 post method. Hence cannot be tested via browser.It can be tested via CURL.
 please go to "resources" directory and execute the following command:
+
 curl command to test : curl -X POST -d @input_0.xml -H "Content-Type:application/xml" http://localhost:8080/api/play
