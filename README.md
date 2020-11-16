@@ -95,8 +95,11 @@ When you are done zip the project (without the target folder) and send it back t
 ##Considerations around project :
 
 1.If the race time of two or more participants are same then same position rank will be given
+
 2.Top 3 positions of participants will be displayed in output.
-3.If participant speed is less 0 - race didnt start : That participant is  out of race.
+
+3.If participant speed is less than ZERO -> participant didnot finish the race  : That participant is  out of race.
+
 4.Minimum participants of race is 3.
 
 ##Run :
