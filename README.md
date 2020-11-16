@@ -99,6 +99,7 @@ Considerations around project :
 4.Minimum participants of race is 3.
 
 Run :
+
 This project contains only 1 post method. Hence cannot be tested via browser.It can be tested via CURL or POSTMAN.
 please go to "resources" directory and execute the following command:
 curl command to test : curl -X POST -d @input_0.xml -H "Content-Type:application/xml" http://localhost:8080/api/play
